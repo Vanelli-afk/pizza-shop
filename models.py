@@ -39,8 +39,8 @@ class Order(Base):
     # )
 
     id = Column("id", Integer, primary_key=True, autoincrement=True)
-    user = Column("user", ForeignKey("users.id"))
     status = Column("status", String)
+    user = Column("user", ForeignKey("users.id"))
     price = Column("price", Float, nullable=False)
     # itens
 

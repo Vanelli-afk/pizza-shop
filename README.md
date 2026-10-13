@@ -1,6 +1,6 @@
-# Python API
+# Pizza Shop
 
-API REST desenvolvida com **Python** e **FastAPI**, com rotas iniciais para cadastro de usuários e criação de pedidos. A persistência é feita com SQLAlchemy e o versionamento do esquema do banco é gerenciado pelo Alembic.
+API REST desenvolvida com **Python (FastAPI)**, com rotas iniciais para cadastro de usuários e criação de pedidos. A persistência é feita com SQLAlchemy e o versionamento do esquema do banco é gerenciado pelo Alembic.
 
 > **Status:** projeto em desenvolvimento. Algumas partes, especialmente o fluxo de login e a proteção das rotas, ainda precisam ser concluídas antes de qualquer uso em produção.
 

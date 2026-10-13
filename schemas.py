@@ -5,8 +5,8 @@ class UserSchema(BaseModel):
     name: str
     email: str
     password: str
-    activated: Optional[bool]
-    admin: Optional[bool]
+    activated: Optional[bool] = True
+    admin: Optional[bool] = False
 
     class Config:
         from_attributes = True

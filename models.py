@@ -66,7 +66,6 @@ class OrderedItem(Base):
         self.unit_price = unit_price
         self.order = order
 
-# executa a criação dos metadados do seu banco (cria efetivamente o banco de dados)
 """
 Atraves do alambic:
 Para qualquer mudança ou criação de banco de dados

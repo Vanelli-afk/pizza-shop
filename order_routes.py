@@ -4,11 +4,9 @@ from models import Order
 from dependencies import get_session
 from schemas import OrderSchema
 
-# dominio/order
+# dominio/orders/order
 order_router = APIRouter(prefix="/orders", tags=["orders"])
 
-# funcao executada sempre que recebe uma requisicao get no endpoint /order/
-# funcao assincrona -> nao interrompe sistema com muitas req simultaneas
 @order_router.get("/")
 async def orders():
     """
